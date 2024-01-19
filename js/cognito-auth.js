@@ -133,6 +133,8 @@ var WildRydes = window.WildRydes || {};
         var email = $('#emailInputRegister').val();
         var password = $('#passwordInputRegister').val();
         var password2 = $('#password2InputRegister').val();
+        var phone = $('#phoneInputRegister').val();
+
 
         var onSuccess = function registerSuccess(result) {
             var cognitoUser = result.user;
